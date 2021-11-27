@@ -1,3 +1,4 @@
+import 'package:chatmoi/services/auth.dart';
 import 'package:flutter/material.dart';
 
 class SignIn extends StatefulWidget {
@@ -12,7 +13,15 @@ class _SignInState extends State<SignIn> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Chat Moi!'),
+        title: const Text('Chat Moi!'),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            AuthMethods().signInWithGoole(context);
+          },
+          child: const Text('Sign In With Google'),
+        ),
       ),
     );
   }

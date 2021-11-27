@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1039094668237",
+    "project_id": "messanger-clone-2c64a",
+    "storage_bucket": "messanger-clone-2c64a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039094668237:android:a6719712e76213b825c284",
+        "android_client_info": {
+          "package_name": "com.example.chatmoi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039094668237-i0g98h7ki9884ak68rg7br4etmfhoq9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatmoi",
+            "certificate_hash": "2eea7ed6a2cc84d6c1755a8883e0e4ce01cee6b6"
+          }
+        },
+        {
+          "client_id": "1039094668237-b00nvhguuqh5510b5a0d80srfdj8gq1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcf6nJUNYCEpslHY3kd0Zs32elx2WyH3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039094668237-b00nvhguuqh5510b5a0d80srfdj8gq1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
